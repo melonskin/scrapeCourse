@@ -44,7 +44,6 @@ with open('coursegpa.csv', 'w') as csvfile:
 def percentage(top,bot):
     return str(round(float(top)/float(bot),4)*100)+'%'
 
-
 def writecsv(dirname, filename, destination):
     College = filename[-6:-4]
     semestern = filename[-7:-6]

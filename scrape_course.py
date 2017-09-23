@@ -11,7 +11,6 @@ def request(url):
     content = requests.get(url, headers=headers)
     return content
 
-
 def scrapcourse(url):
     content = request(url)
     soup = BeautifulSoup(content.text,'lxml')

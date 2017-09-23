@@ -13,7 +13,6 @@ def readPDF(pdfFile):
     device = TextConverter(rsrcmgr, retstr, laparams=laparams)
     process_pdf(rsrcmgr, device, pdfFile)
     device.close()
-
     content = retstr.getvalue()
     retstr.close()
     return content

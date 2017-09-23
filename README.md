@@ -1,4 +1,4 @@
-# A tool scraping course and grade data for university with python.
+## A tool scraping course and grade data for university with python.
 
 
 Highly specialized for specific websites.

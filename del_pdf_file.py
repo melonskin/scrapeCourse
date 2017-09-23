@@ -1,6 +1,5 @@
 import os
 
-
 for dirname, dirnames, filenames in os.walk('.'):
     print(dirnames)
     print(dirname)
